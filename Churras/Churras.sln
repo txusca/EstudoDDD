@@ -5,8 +5,6 @@ VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Churras", "Churras", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kernel", "Kernel", "{DB8B05B9-10C8-434C-9B01-2DE9272B20CE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Txusca.Churras.Domain", "Txusca.Churras.Domain\Txusca.Churras.Domain.csproj", "{1158B117-4797-423F-9DA2-2F73CB4451C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Txusca.Churras.Domain.Model", "Txusca.Churras.Model\Txusca.Churras.Domain.Model.csproj", "{68083D33-920D-482A-8F76-B3A58390C8EC}"
@@ -18,6 +16,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Txusca.Churras.API", "Txusca.Churras.API\Txusca.Churras.API.csproj", "{DACD7755-AE23-4A67-9E45-D2205591B6C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Txusca.Churras.Front", "Txusca.Churras.Front\Txusca.Churras.Front.csproj", "{EB46B636-F5D9-4A75-AB30-EC376020D79E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kernel", "Kernel", "{EA3FD05A-1E24-4D78-BA85-9D9A18A70CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel.Domain", "..\..\..\Downloads\CursoDDD\Kernel\Kernel.Domain\Kernel.Domain.csproj", "{17A62D46-9F12-C4D8-3192-5BB608A9CB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel.Domain.Model", "..\..\..\Downloads\CursoDDD\Kernel\Kernel.Domain.Model\Kernel.Domain.Model.csproj", "{57D59C8C-69EE-32AB-6CC7-90945D362ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel.Infra", "..\..\..\Downloads\CursoDDD\Kernel\Kernel.Infra\Kernel.Infra.csproj", "{DF7214AA-31C5-1ADF-B36D-C9BD20BB7A1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +55,18 @@ Global
 		{EB46B636-F5D9-4A75-AB30-EC376020D79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB46B636-F5D9-4A75-AB30-EC376020D79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB46B636-F5D9-4A75-AB30-EC376020D79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A62D46-9F12-C4D8-3192-5BB608A9CB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A62D46-9F12-C4D8-3192-5BB608A9CB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A62D46-9F12-C4D8-3192-5BB608A9CB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A62D46-9F12-C4D8-3192-5BB608A9CB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D59C8C-69EE-32AB-6CC7-90945D362ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D59C8C-69EE-32AB-6CC7-90945D362ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D59C8C-69EE-32AB-6CC7-90945D362ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D59C8C-69EE-32AB-6CC7-90945D362ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7214AA-31C5-1ADF-B36D-C9BD20BB7A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7214AA-31C5-1ADF-B36D-C9BD20BB7A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7214AA-31C5-1ADF-B36D-C9BD20BB7A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7214AA-31C5-1ADF-B36D-C9BD20BB7A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +78,9 @@ Global
 		{1036D34F-547F-4D35-92BA-16D2A99AEA5E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{DACD7755-AE23-4A67-9E45-D2205591B6C7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{EB46B636-F5D9-4A75-AB30-EC376020D79E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{17A62D46-9F12-C4D8-3192-5BB608A9CB06} = {EA3FD05A-1E24-4D78-BA85-9D9A18A70CEC}
+		{57D59C8C-69EE-32AB-6CC7-90945D362ABB} = {EA3FD05A-1E24-4D78-BA85-9D9A18A70CEC}
+		{DF7214AA-31C5-1ADF-B36D-C9BD20BB7A1D} = {EA3FD05A-1E24-4D78-BA85-9D9A18A70CEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6696D7CE-B339-413B-9675-8466C3AAA5AD}
