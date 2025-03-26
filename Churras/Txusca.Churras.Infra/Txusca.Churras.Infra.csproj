@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Downloads\CursoDDD\Kernel\Kernel.Infra\Kernel.Infra.csproj" />
     <ProjectReference Include="..\Txusca.Churras.Domain\Txusca.Churras.Domain.csproj" />
   </ItemGroup>
 
