@@ -1,0 +1,6 @@
+@Txusca.Churras.API_HostAddress = http://localhost:5144
+
+GET {{Txusca.Churras.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
